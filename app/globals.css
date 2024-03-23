@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+	width: 10px; /* Width of the scrollbar */
+}
+
+/* Track (the area on which the thumb scrolls) */
+::-webkit-scrollbar-track {
+	background: transparent; /* Color of the track */
+	border-radius: 8px; /* Rounded corners */
+}
+
+/* Handle (the draggable scrolling element) */
+::-webkit-scrollbar-thumb {
+	background: rgb(76,86,106); /* Color of the handle */
+	border-radius: 8px; /* Rounded corners */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #909090; /* Color of the handle on hover */
+}
