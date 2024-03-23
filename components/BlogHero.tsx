@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image"
 import Link from "next/link"
 
 const BlogHero = () => {
@@ -7,7 +8,7 @@ const BlogHero = () => {
         <div className='px-6 py-5 bg-gradient-to-bl from-slate-50 to-slate-300 h-full flex flex-col justify-center items-center'>
             <div className="carousel w-full">
                 <div id="blog-one" className="carousel-item w-full flex flex-col justify-center items-center gap-5 pt-32">
-                    <img src="/placeholder.png" className="w-96 h-96 mx-auto" />
+                    <Image alt="blog-preview" src="/placeholder.png" className="w-96 h-96 mx-auto" />
                     <div className='max-w-xl w-full'>
                         <h1 className='text-3xl -mt-20 text-center'>Blog one.</h1>
                         <br />
@@ -16,7 +17,7 @@ const BlogHero = () => {
                     </div>
                 </div>
                 <div id="blog-two" className="carousel-item w-full flex flex-col justify-center items-center gap-5 pt-32">
-                    <img src="/placeholder.png" className="w-96 h-96 mx-auto" />
+                    <Image alt="blog-preview" src="/placeholder.png" className="w-96 h-96 mx-auto" />
                     <div className='max-w-xl w-full'>
                         <h1 className='text-3xl -mt-20 text-center'>Blog two.</h1>
                         <br />
@@ -25,7 +26,7 @@ const BlogHero = () => {
                     </div>
                 </div>
                 <div id="blog-three" className="carousel-item w-full flex flex-col justify-center items-center gap-5 pt-32">
-                    <img src="/placeholder.png" className="w-96 h-96 mx-auto" />
+                    <Image alt="blog-preview" src="/placeholder.png" className="w-96 h-96 mx-auto" />
                     <div className='max-w-xl w-full'>
                         <h1 className='text-3xl -mt-20 text-center'>Blog three.</h1>
                         <br />
