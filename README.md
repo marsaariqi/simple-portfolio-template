@@ -1,3 +1,8 @@
+## Preview
+![simple portfolio template](https://github.com/marsaariqi/simple-portfolio-template/assets/20793792/b15fe3c2-9233-4438-a506-549bb7cf1961)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
